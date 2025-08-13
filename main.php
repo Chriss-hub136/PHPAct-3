@@ -18,6 +18,8 @@ function sum($a, $b, $command): mixed {
 }
 
 echo sum(a: 10, b: 5, command: 'add') . "<br>\n";
+
+
 echo sum(a: 10, b: 5, command: 'substract') . "<br>\n";
 echo sum(a: 10, b: 5, command: 'multiply') . "<br>\n";
 echo sum(a: 10, b: 5, command: 'divide') . "<br>\n";
